@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 const db = require('./db');
-const mysql = require('mysql2');
 
 start()
 
@@ -177,5 +176,4 @@ function addRole(){
 function Quit() {
     console.log('Goodbye!');
     process.exit();
-    
 }
